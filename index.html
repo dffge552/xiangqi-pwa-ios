@@ -53,8 +53,9 @@
                     if (path.endsWith('.wasm')) {
                         return './pikafish.wasm';
                     }
+                    // ✅ 新的（本地文件）
                     if (path.endsWith('.nnue')) {
-                        return 'https://github.com/dffge552/xiangqi-pwa/releases/download/v1.0.0/pikafish.nnue';
+                        return './pikafish.nnue';  // 改成本地路徑
                     }
                     if (path.endsWith('.data')) {
                         return './pikafish.data';
@@ -98,7 +99,7 @@
                 ALLOW_MEMORY_GROWTH: true,
 
                 // 🔥 關鍵：使用 arguments 傳遞 NNUE 路徑
-                arguments: ['--evalfile=https://github.com/dffge552/xiangqi-pwa/releases/download/v1.0.0/pikafish.nnue']
+                arguments: ['--evalfile=pikafish.nnue']  // 改成相對路徑
 
             }).then(function(module) {
                 console.log('🎉 Pikafish WASM 載入完成！');
@@ -32820,7 +32821,7 @@
         initGameInstructionsSystem();
     }
 
-    
+
 
     // ==================== 遊戲設置系統 ====================
 
