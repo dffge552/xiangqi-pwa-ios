@@ -7,7 +7,10 @@
     <list default="true" id="a3ccc5cd-3bff-4c64-96c0-089e7a183aaa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pikafish.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pikafish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pikafish.nnue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pikafish.wasm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/USER_DATA/Desktop/xiangqi/xiangqi-training-platform",
+    "last_opened_file_path": "D:/USER_DATA/Desktop/ios象棋/xiangqi-training-platform",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +60,8 @@
       <updated>1767011617048</updated>
       <workItem from="1767011618589" duration="5179000" />
       <workItem from="1767187636487" duration="25032000" />
-      <workItem from="1767483960450" duration="1981000" />
+      <workItem from="1767483960450" duration="3471000" />
+      <workItem from="1767502541389" duration="3355000" />
     </task>
     <servers />
   </component>
